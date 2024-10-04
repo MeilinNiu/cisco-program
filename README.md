@@ -15,5 +15,6 @@ https://github.com/facebook/create-react-app
 ### Week 2
 - Web design
 https://dribbble.com/tags/webdesign
+https://coolors.co
 
 
