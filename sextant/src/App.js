@@ -1,28 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
+import Banner from './Banner';
+import Exhibit from './Exhibit';
 
-function Square({ value }) {
-  return <button className="square">{value}</button>;
+class App extends Component {
+    render() {
+        return (
+            <div className="App">
+                <Banner bannerText="Sextant" />
+                <Exhibit name="Exhibit Happy!">Hi! This is the result of this.props.children of Exhibit Happy!</Exhibit>
+                <Exhibit name="Exhibit Excited!"></Exhibit>
+                <Exhibit name="Exhibit Positive!"></Exhibit>
+            </div>
+        );
+    }
 }
 
-export default function Board(){
-  return (
-    <div>
-      <div className="board-row">
-        <Square value="1" />
-        <Square value="2" />
-        <Square value="3" />
-      </div>
-      <div className="board-row">
-        <Square value="4" />
-        <Square value="5" />
-        <Square value="6" />
-      </div>
-      <div className="board-row">
-        <Square value="7" />
-        <Square value="8" />
-        <Square value="9" />
-      </div>  
-    </div>
-  );
-}
+export default App;

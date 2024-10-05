@@ -1,0 +1,21 @@
+.Exhibit {
+    float: left;
+    /* 1vw = 1440px/100 = 14.4 pixels.
+    vw is viewport width */
+    margin: 0.5vw;
+    padding: 0vw 2vw 0vw 2vw;
+    text-align: center;
+    color: #002933;
+    background-color: #04dbf3fb;
+    border: 0.25vw solid #005266;
+    border-radius: 2vw;
+}
+
+.ExhibitHead{
+    font-weight: bold;
+    font-size: 2vw;
+}
+
+/* .ExhibitText{
+    
+} */
