@@ -40,3 +40,11 @@ https://github.com/vagabond-systems/cisco-task-2-model-answer.git
 A public IP address is used to reach your router from anywhere on the internet. Think of a router as a mailbox in a dormitory, and each computer as an individual room in the dorm. Any mail entering the system has a two-part address, the address of the dormitory and the room number where it should end up. **The dorm’s address is analogous(similar) to the router’s public IP, and a short-lived logical address called a port fulfills the function of the room number.**
 
 Due to the additional layer of indirection provided by ports, a single public IP can be used to access many computers managed by the same router. Therefore, the IP addresses you’ll be working with for this task are associated with your router, not your computer.
+
+- Public IP Address API: https://www.ipify.org
+
+- Task 3 model answer: https://github.com/vagabond-systems/cisco-task-3-model-answer.git
+
+### Week 4
+
+### Week 5
